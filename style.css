@@ -1,0 +1,119 @@
+html,body{
+	text-align: center;
+	height:100%;
+	width:100%;
+	padding: 0;
+	margin: 0;
+}
+header{
+	height: 100px;
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	padding:0;
+}
+em{
+	font-family: SegoeUI;
+	font-size: 100px;
+	text-align: center;
+	color: #4B6968;
+}
+.object{
+	height:100%;
+	width:100%;
+	background-size:cover;
+	background-attachment: fixed;
+	padding:0;
+	margin:0;
+	display:table;
+	color:black;
+}
+h1{
+	margin:0;
+	font-family: sans-serif;
+	font-size: 50px;
+	text-align: center;
+	display:table-row;
+	vertical-align: middle;
+}
+.one{
+	background-image: url('1.jpg');
+}
+.two{
+	background-image: url('2.jpg');
+}
+.three{
+	background-image: url('3.jpg');
+}
+.four {
+	background-image: url('4.jpg');
+}
+.small{
+	height:40%;
+	color: black;
+	background-color: black;
+	width: 100%;
+}
+#buttons {
+	text-align: center;
+}
+#buttons a{
+	display: block;
+	height: 100px;
+	width: 300px;
+	overflow: hidden;
+	background: #5591A0;
+	text-decoration: none;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid #FFF;
+}
+#buttons h6{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font: 2em/100px 'Myriad Pro', Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+#buttons div{
+	opacity: 0;
+	color: black;
+	height: 100px;
+	background: #C91E32;
+	line-height: 100px;
+	font: 2em/100px 'Myriad Pro', Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+#buttons a:hover h6{
+	margin-top: -100px;
+}
+#buttons a:hover div{
+	opacity: 1;
+}
+p{
+	font-family: SegoeUI;
+	font-size: 18px;
+	text-align: center;
+	color: #4B6968;
+}
+.blur {
+	-webkit-transition: all 1s ease;
+	-moz-webkit-transition: all 1s ease;
+	-ms-webkit-transition: all 1s ease;
+	-o-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.blur:hover{
+	-webkit-filter: blur(5px);
+}
